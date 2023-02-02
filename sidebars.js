@@ -45,7 +45,7 @@ module.exports = {
     "home/faq",
   ],
 
-  delegate: ["maintain/delegate/delegate", 
+  delegate: ["maintain/delegate/delegate",
   //"maintain/delegate/delegator-faq"
   ],
 
@@ -1469,7 +1469,6 @@ module.exports = {
         "supernets/contracts/checkpoint-manager",
         "supernets/contracts/reward-pool",
         "supernets/contracts/validator-queue",
-        //"supernets/contracts/validator-storage",
         "supernets/contracts/withdrawal-queue",
       ],
     },
@@ -1499,6 +1498,7 @@ module.exports = {
         "supernets/api/json-rpc-debug",
       ],
     },
+    "supernets/supernets-faq",
   ],
 
 };
