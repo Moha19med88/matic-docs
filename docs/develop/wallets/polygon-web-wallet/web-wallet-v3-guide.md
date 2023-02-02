@@ -17,9 +17,9 @@ image: https://wiki.polygon.technology/img/polygon-wiki.png
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-**A new version of our Polygon Wallet is live**. Now called **Polygon Wallet Suite**, our new environment provides a more seamless exprience with great improvements on the user interface as well as on its overall experience.
+**A new version of our Polygon Wallet is live**. Now called **Polygon Wallet Suite**, our new environment provides a more seamless experience with great improvements on the user interface as well as on its overall experience.
 
-This guide shows instructions to deposit and withdraw funds using [Polygon Wallet Suite](https://wallet.polygon.technology/). For performing those actions, you need to connect a wallet to Polygon's environmnet. In this tutorial, we used Metamask, but Polygon is integrated with other wallets such as Coinbase, Bitski, Venly and WalletConnect.
+This guide shows instructions to deposit and withdraw funds using [Polygon Wallet Suite](https://wallet.polygon.technology/). For performing those actions, you need to connect a wallet to Polygon's environment. In this tutorial, we used Metamask, but Polygon is integrated with other wallets such as Coinbase, Bitski, Venly and WalletConnect.
 
 :::tip
 
@@ -35,7 +35,7 @@ Once you connect your account with the Web Wallet, you will be taken to the land
 - **Polygon Wallet**: for sending, receiving and storing your assets on the Polygon network
 - **Polygon Bridge**: for withdrawals and deposits across networks
 - **Polygon Staking**: your go-to place for staking and getting rewards with your MATIC tokens
-- and the **Widget Dashboard**.
+- and the **Polygon Safe Bridge**.
 
 Click on the Polygon Wallet or Polygon Bridge, and you will see all your token balances on the Polygon Wallet across the bridges (PoS and Plasma).
 
@@ -43,7 +43,7 @@ Click on the Polygon Wallet or Polygon Bridge, and you will see all your token b
 
 :::tip Metamask
 
-Be attentive to all Metamask's popups. Throughout the deposit and withdraw processes, you will be prompted with Metamask's popups to confirm transactions, switch networks and for other procedures. You can only proceed with those transactions if you confirm the actions on Metamask.
+Be attentive to all Metamask's popups. Throughout the deposit and withdrawal processes, you will be prompted with Metamask's popups to confirm transactions, switch networks and other procedures. You can only proceed with those transactions if you confirm the actions on Metamask.
 
 ::: 
 
@@ -51,16 +51,18 @@ Be attentive to all Metamask's popups. Throughout the deposit and withdraw proce
 
 You can either watch the **video tutorial** here or follow the **step-by-step guide** provided below.
 
-<video loop autoplay width="70%" height="70%" controls="true" >
-  <source type="video/mp4" src="/img/wallet/v3/deposit/deposit-polygon-wallet.mp4"></source>
-  <p>Your browser does not support the video element.</p>
-</video>
+<div align="center">
+  <video loop autoplay width="70%" height="70%" controls="true" >
+    <source type="video/mp4" src="/img/wallet/v3/deposit/deposit-polygon-wallet.mp4"></source>
+    <p>Your browser does not support the video element.</p>
+  </video>
+</div>
 
 #### Step-by-Step Guide
 
-1. Click on the **Move Funds from Ethereum to Polygon** button or on the **Deposit** button from any of the token types on **Token Balance** section.
+1. Click on the **Move Funds from Ethereum to Polygon** button or on the **Deposit** button from any of the token types in the **Token** Balance** section.
 
-  <img src={useBaseUrl("img/wallet/v3/deposit/balances.png")} width="100%" height="100%" />
+  <img src={useBaseUrl("img/wallet/v3/deposit/balances.png")} width="1000" height="1000" />
 
 2. You will be redirected to the bridge page where you need to enter the deposit amount.
 
@@ -92,24 +94,26 @@ You can either watch the **video tutorial** here or follow the **step-by-step gu
 
 You can always check your past and current transactions by clicking on the **Transactions** tab on the left.
 
-##  Withdraw Funds from Polygon Back to Ethereum
+##  Withdraw Funds from Polygon to Ethereum
 
 ### On Polygon PoS Bridge
 
-Withdrawing funds from Polygon back to the Ethereum Mainnet via PoS Bridge is an extremely simple process. For the funds to be available back on Ethereum it will take about 3 hours. You can either watch the **video tutorial** here or follow the **step-by-step guide** provided below.
+Withdrawing funds from Polygon back to the Ethereum Mainnet via PoS Bridge is an extremely simple process. For the funds to be available back on Ethereum it will take from 45 minutes to 3 hours. You can either watch the **video tutorial** here or follow the **step-by-step guide** provided below.
 
-<video loop autoplay width="70%" height="70%" controls="true" >
-  <source type="video/mp4" src="/img/wallet/v3/pos/withdraw-polygon-wallet.mp4"></source>
-  <p>Your browser does not support the video element.</p>
-</video>
+<div align="center">
+  <video loop autoplay width="70%" height="70%" controls="true" >
+    <source type="video/mp4" src="/img/wallet/v3/pos/withdraw-polygon-wallet.mp4"></source>
+    <p>Your browser does not support the video element.</p>
+  </video>
+</div>
 
 #### Step-by-Step Guide
 
-1. To withdraw funds, click on the **Withdraw** option on any of the token from the **Token Balance** section.
+1. To withdraw funds, click on the **Withdraw** option on any of the tokens from the **Token Balance** section.
 
   <img src={useBaseUrl("img/wallet/v3/pos/balances.png")} width="100%" height="100%"/>
 
-2. You will be redirected to the bridge page where you need to enter the Withdraw amount.
+2. You will be redirected to the Bridge page where you need to enter the Withdrawal amount.
 
   <img src={useBaseUrl("img/wallet/v3/pos/bridge.png")} width="100%" height="100%" />
 
@@ -147,18 +151,20 @@ Withdrawing funds from Polygon back to the Ethereum Mainnet via PoS Bridge is an
 
 Withdrawing funds from Polygon back to the Ethereum mainnet via Plasma Bridge is a simple process but with a **challenge period**. You can either watch the **video tutorial** here or follow the **step-by-step guide** provided below.
 
+<div align="center">
 <video loop autoplay width="70%" height="70%" controls="true" >
   <source type="video/mp4" src="/img/wallet/v3/plasma/withdraw-plasma-v3.mov"></source>
   <p>Your browser does not support the video element.</p>
 </video>
+</div>
 
 #### Step-by-step guide
 
-1. To withdraw funds, click on the **Withdraw** link from any of the Plasma token type on **Your tokens on Polygon Mainnet** section.
+1. To withdraw funds, click on the **Withdraw** link from any of the Plasma token types on **Your **tokens on **the Polygon Mainnet** section.
 
   <img src={useBaseUrl("img/wallet/v3/plasma/balances.png")} width="100%" height="100%"/>
 
-2. You will be redirected to the bridge page where you need to enter the **Withdraw Amount**.
+2. You will be redirected to the Bridge page where you need to enter the **Withdraw Amount**.
 
   <img src={useBaseUrl("img/wallet/v3/plasma/bridge.png")} width="100%" height="100%"/>
 
@@ -178,7 +184,7 @@ Withdrawing funds from Polygon back to the Ethereum mainnet via Plasma Bridge is
 
   <div align="center"><img src={useBaseUrl("img/wallet/v3/plasma/transfer-progress.png")} width="50%" height="50%"/></div>
 
-4. The first transaction is to initiate your withdrawal. Once the withdraw transaction is initiated, you need to wait for the checkpoint to arrive. This could take up to 3 hours to complete.
+4. The first transaction is to initiate your withdrawal. Once the withdrawal transaction is initiated, you need to wait for the checkpoint to arrive. This could take up to 3 hours to complete.
 
   <div align="center"><img src={useBaseUrl("img/wallet/v3/plasma/checkpoint-arrived.png")} width="50%" height="50%"/></div>
 
@@ -202,10 +208,12 @@ Polygon also offers the possibility of swapping tokens for MATIC. You can curren
 
 You can either watch the video tutorial below or follow the step-by-step guide.
 
+<div align="center">
 <video loop autoplay width="70%" height="70%" controls="true" >
   <source type="video/mp4" src="/img/wallet/v3/swap-gas.mp4"></source>
   <p>Your browser does not support the video element.</p>
 </video>
+</div>
 
 #### Step-by-step guide
 
@@ -251,10 +259,12 @@ You can swap tokens for other tokens using the **Token Swap** feature, which use
 
 You can either watch the video tutorial here or follow the step-by-step guide provided below.
 
+<div align="center">
 <video loop autoplay width="70%" height="70%" controls="true" >
   <source type="video/mp4" src="/img/wallet/v3/swap-token.mp4"></source>
   <p>Your browser does not support the video element.</p>
 </video>
+</div>
 
 #### Step-by-step guide
 
@@ -288,6 +298,12 @@ You can find some of the token lists here: https://tokenlists.org/
 <br/>
 
 You can also **make your own list**, import it to Polygon Wallet and even share it with the community.
-To learn more about creating your own token lists, check out this guide to [Authoring Token Lists on Github](https://github.com/uniswap/token-lists#authoring-token-lists). Note that the **Chain ID should be 137** when creating a Polygon list.
+To learn more about creating your own token lists, check out this guide to [Authoring Token Lists on Github](https://github.com/uniswap/token-lists#authoring-token-lists). 
+
+:::note
+
+Note that the **Chain ID should be 137** when creating a Polygon list.
+
+:::
 
 If you need to add a token to one of our lists, [<ins>add a Token Request</ins>](https://github.com/maticnetwork/polygon-token-list/issues/new?assignees=&labels=add+token+request&template=add_token_request.md&title=Add+%7BTOKEN_SYMBOL%7D%3A+%7BTOKEN_NAME%7D) with the required information, and it’ll be reviewed by our team.
