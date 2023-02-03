@@ -160,7 +160,7 @@ Withdrawing funds from Polygon back to the Ethereum mainnet via Plasma Bridge is
 
 #### Step-by-step guide
 
-1. To withdraw funds, click on the **Withdraw** link from any of the Plasma token types on **Your **tokens on **the Polygon Mainnet** section.
+1. To withdraw funds, click on the **Withdraw** link from any of the Plasma token types on **Your tokens** on the **Polygon Mainnet** section.
 
   <img src={useBaseUrl("img/wallet/v3/plasma/balances.png")} width="100%" height="100%"/>
 
@@ -302,7 +302,7 @@ To learn more about creating your own token lists, check out this guide to [Auth
 
 :::note
 
-Note that the **Chain ID should be 137** when creating a Polygon list.
+The **Chain ID should be 137** when creating a Polygon list.
 
 :::
 
