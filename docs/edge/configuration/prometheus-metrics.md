@@ -34,4 +34,4 @@ The following metrics are available:
 | edge_network_inbound_connections_count          | Gauge    | Number of inbound connections               |
 | edge_network_pending_inbound_connections_count  | Gauge    | Number of pending outbound connections      |
 | edge_network_pending_outbound_connections_count | Gauge    | Number of pending inbound connections       |
- | edge_consensus_epoch_number                     | Gauge    | Current epoch number                        |
+| edge_consensus_epoch_number                     | Gauge    | Current epoch number                        |
